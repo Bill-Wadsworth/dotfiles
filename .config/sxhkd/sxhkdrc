@@ -5,7 +5,8 @@
 
 #Shutdown confomation
 XF86PowerOff
-	sh $HOME/.config/rofi/scripts/powermenu_t6
+  sh $HOME/.config/rofi/powermenu/powermenu.sh
+#/.config/rofi/scripts/powermenu_t6
 
 
 #Volume changing
@@ -33,7 +34,7 @@ super + i
 
 # program launcher
 super + d
-	dmenu_run
+  sh $HOME/.config/rofi/launchers/launcher.sh
 
 #fireFox
 super + e
